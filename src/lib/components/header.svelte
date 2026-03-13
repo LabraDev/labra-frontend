@@ -1,12 +1,14 @@
 <script>
-    
+    import github_logo from '$lib/assets/github-logo.svg';
 </script>
 
 <div class="header">
     <p id="logo">Labra</p>
     <div class="login">
-        <p>(pfp)</p>
-        <p id="logintxt">Login</p>
+        <button id="logintxt"><a href="http://localhost:8080/login">
+            <img src={github_logo} alt="github logo" height="32" width="32" />
+            Login with Github
+        </a></button>
     </div>
 </div>
 <hr>
@@ -16,7 +18,7 @@
     .header {
         background-color: var(--bg-color);
         min-height: 7vh;
-        color: white;
+        color: var(--text-color);
         width: 100%;
         display: flex;
         padding-top: 2vh;
@@ -28,6 +30,7 @@
     #logintxt {
         margin-left: 1vh;
         font-size: 20px;
+        background-color: var(--crust);
     }
     .login {
         margin-left: auto;

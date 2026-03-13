@@ -14,7 +14,7 @@
     .footer {
         background-color: var(--bg-color);
         min-height: 20vh;
-        color: white;
+        color: var(--text-color);
         width: 100%;
         display: flex;
         align-items: center;

@@ -16,8 +16,10 @@
 
 <style>
 	:root {
-		--bg-color: #0d001a;
-		--hr-color: #241236;
+		--bg-color: #181825;
+		--hr-color: #313244;
+		--text-color: #cdd6f4;
+		--crust: #11111b;
 	}
 	:global(*) {
     	margin: 0;
@@ -26,6 +28,6 @@
 	main {
 		background-color: var(--bg-color);
 		min-height: 100vh;
-		color: white;
+		color: var(--text-color);
 	}
 </style>
