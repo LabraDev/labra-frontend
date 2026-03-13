@@ -1,14 +1,11 @@
 <script>
-    import github_logo from '$lib/assets/github-logo.svg';
+    import GithubLoginButton from '$lib/components/githublogin.svelte';
 </script>
 
 <div class="header">
-    <p id="logo">Labra</p>
+    <h1 id="logo">Labra</h1>
     <div class="login">
-        <button id="logintxt"><a href="http://localhost:8080/login">
-            <img src={github_logo} alt="github logo" height="32" width="32" />
-            Login with Github
-        </a></button>
+        <GithubLoginButton />
     </div>
 </div>
 <hr>
@@ -16,21 +13,19 @@
 
 <style>
     .header {
-        background-color: var(--bg-color);
+        background-color: var(--crust);
         min-height: 7vh;
         color: var(--text-color);
         width: 100%;
         display: flex;
         padding-top: 2vh;
+        padding-bottom: 2vh;
+        justify-content: space-between;
+        align-items: center;
     }
     #logo {
         margin-left: 3vh;
-        font-size: 32px;
-    }
-    #logintxt {
-        margin-left: 1vh;
-        font-size: 20px;
-        background-color: var(--crust);
+        font-size: 5vh;
     }
     .login {
         margin-left: auto;

@@ -19,11 +19,13 @@
 		--bg-color: #181825;
 		--hr-color: #313244;
 		--text-color: #cdd6f4;
+		--border-color: #9399b2;
 		--crust: #11111b;
 	}
 	:global(*) {
     	margin: 0;
     	padding: 0;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   	}
 	main {
 		background-color: var(--bg-color);

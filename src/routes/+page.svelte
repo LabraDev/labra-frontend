@@ -1,2 +1,5 @@
+<script>
+    import HeroSection from '$lib/components/hero.svelte';
+</script>
 
-<h1>hi</h1>
+<HeroSection />

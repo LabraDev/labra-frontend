@@ -12,7 +12,7 @@
 
 <style>
     .footer {
-        background-color: var(--bg-color);
+        background-color: var(--crust);
         min-height: 20vh;
         color: var(--text-color);
         width: 100%;
